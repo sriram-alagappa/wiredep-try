@@ -1,0 +1,25 @@
+{
+  "name": "wiredep-try",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "sriram <salagappa@provocraft.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6"
+  },
+  "scripts": {
+    "postinstall": "wiredep -s index.html"
+  }
+}
